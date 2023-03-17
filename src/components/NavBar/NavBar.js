@@ -15,29 +15,11 @@ function NavBar() {
           <ul className="navbar-nav mr-auto">
 
             <li className="nav-item">
-              <a className="nav-link" href="#work">My Work</a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="#skills">My Skills</a>
+              <a className="nav-link" href="">Projects</a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>
-            </li>
-
-            <li className="nav-item dropdown">
-              <a aria-expanded="false" aria-haspopup="true" className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Portfolio</a>
-
-              <div aria-labelledby="navbarDropdown" className="dropdown-menu">
-                <a className="dropdown-item" href="#journalist">Freelance Journalist</a>
-                <div className="dropdown-divider"></div>
-
-                <a className="dropdown-item" href="#photography">Photography Website</a>
-                <div className="dropdown-divider"></div>
-                
-                <a className="dropdown-item" href="#cleaner">Window Cleaner Website</a>
-              </div>
             </li>
 
             <li className="nav-item">
