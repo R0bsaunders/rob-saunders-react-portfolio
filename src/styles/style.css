@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --transparentBackground: rgba(255, 255, 255, 0.429);
+    --brandColor: rgba(69, 9, 116,1);
+    --tabletSpaceBetweenElements: 25px;
+    --titleBackground: rgba(69, 9, 116,0.75);
+}
+
+/* Text Styles */
+
+p {
+    font-size: 16px;
+}
+
+small {
+    color: black;
+    font-size: large;
+}
+
+h1 {
+    font-size: 32px;
+    color: var(--brandColor);
+}
+
+/* Button Style */
+
+.btn-primary {
+    border-color: var(--brandColor);
+    background-color: transparent;
+    color: var(--brandColor);
+}
+
+.btn-primary:hover {
+    border-color: black;
+    transition: 0.5s;
+    background-color: var(--brandColor);
+    color: white !important;
+    box-shadow: 2px 2px rgba(000,000,000, .55);
+}
+/* Nav Bar */
+
+#logoImg {
+    height: 75px;
+}
+
+li {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px 15px;
+}
+
+a {
+    color: var(--brandColor) !important;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    color: black !important;
+    transition: 0.5s;
+}
+
+.dropdown-menu {
+    background-color: var(--brandColor);
+}
+
+.btn-primary {
+    border-color: var(--brandColor);
+    background-color: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    z-index: 100;
+    width: 100%;
+    padding: 0px;
+    background-image: linear-gradient(to top,
+    rgba(255,255,255,0.3),
+    rgba(255,255,255,1));
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin: 0px 15px;
+}
+
+.nav-link:hover {
+    border-color: black;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: var(--brandColor);
+    color: white !important;
+    box-shadow: 2px 2px rgba(000,000,000, .55);
+}
+
+.navbar-expand-lg {
+    align-items: flex-start;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+/* Hero Section (Jumbotron) */
+
+.jumbotron {
+    height: 50vh;
+    background-image: url(../images/desktop-hero-rob-hiking-sunset.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.jumboCopy {
+    padding: 10px;
+    display: flex;
+    background-color: var(--transparentBackground);
+    flex-wrap: wrap;
+    text-align: left;
+    width: 70%;
+}
+
+/* work Section */
+
+.work-card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+}
+
+.work-ul {
+    background-color: var(--transparentBackground);
+    flex-wrap: wrap-reverse;
+    justify-content: left;
+    margin-bottom: -25px;
+}
+
+.h3-portfolio {
+    text-align: center;
+    background-color: var(--titleBackground);
+    color: white;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+#card-description {
+    text-align: center;
+    background-color: var(--titleBackground);
+    color: white;
+    padding: 5px;
+}
+
+#card-description p {
+    font-size: 12px;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.mb-4 {
+    margin-bottom: 0 !important;
+}
+
+/* Column height */
+
+.portfolio-height {
+    height: 65vh;
+}
+
+/* Icon Colour */
+
+.bi {
+    color: var(--brandColor);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Animation for little platform icons in work section */
+
+.animate-icon {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+
+    60% {
+		transform: scale(1.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+/* Contact section */
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#about-me p {
+    width: 60%;
+    margin: 10px;
+}
+
+.about-btn {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+/* Footer Styles */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--brandColor);
+    padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+footer img {
+    border: 1px solid white;
+    margin-bottom: var(--tabletSpaceBetweenElements);
+}
+
+footer div ul a {
+    color: white !important;
+    text-decoration: underline;
+}
+
+.footer-nav:hover {
+    border: 1px solid black;
+    transition: 1s;
+    background-color: white;
+    color: black !important;
+    box-shadow: 5px 10px rgba(000,000,000,.5);
+}
+
+footer img:hover {
+    transition: 1s;
+    transform: scale(1.25);
+    box-shadow: 5px 10px rgba(000,000,000,.5);
+}
+
+@media screen and (max-width:480px)
+
+{
+    /* Prevents jumbo copy from overlappging header on smaller screens */
+
+    .jumbotron {
+        height: 55vh;
+        background-position: right;
+    }
+
+    .jumboCopy {
+        width: 100%
+    }
+
+    /* Allows main portfolio card to adjust height to contain content automtically */
+
+    .portfolio-height {
+        height: auto;
+    }
+
+    /* Card description copy width is increased to improve appearance on smaller and lower resolution devices */
+
+    #card-description p {
+        width: 95%;
+    }
+
+    /* Increases the width of the container for the paragraph of about me text */
+    
+    #about-me p {
+        width: 95%;
+    }
+}
