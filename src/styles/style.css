@@ -123,13 +123,14 @@ a:hover {
 
 .jumbotron {
     height: 50vh;
-    background-image: url(../images/desktop-hero-rob-hiking-sunset.jpeg);
+    background-image: url(../../public/images/desktop-hero-rob-hiking-sunset.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 .jumboCopy {

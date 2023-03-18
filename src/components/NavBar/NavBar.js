@@ -1,12 +1,11 @@
 import React from 'react'
-import logo from '../../images/rob-saunders-logo2.png';
 
 
 function NavBar() {
   return (
     <header>
     <nav className="navbar fixed-top navbar-expand-lg navbar-light customNav">
-      <a className="navbar-brand" href="#"><img id="logoImg" src={logo} alt="Purple and white logo for Rob Saunders" /></a>
+      <a className="navbar-brand" href="#"><img id="logoImg" src="./images/rob-saunders-logo2.png" alt="Purple and white logo for Rob Saunders" /></a>
 
       <div>
         <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span className="navbar-toggler-icon"></span></button>
