@@ -1,5 +1,6 @@
 import React from 'react'
 import Jumbotron from '../../components/Jumbotron/Jumbotron'
+import DevelopmentSkills from '../../components/Skills/DevelopmentSkills'
 import {homepageContent} from './HomePageContent'
 
 function HomePage() {
@@ -11,6 +12,9 @@ function HomePage() {
         h1={homepageContent[0].jumbotronH1}
         p={homepageContent[0].jumbotronP} />
       </section>
+
+      <DevelopmentSkills />
+      
     </>
   )
 }
