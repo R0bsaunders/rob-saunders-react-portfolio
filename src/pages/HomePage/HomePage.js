@@ -3,6 +3,7 @@ import LeftImageBlock from '../../components/LeftImageBlock/LeftImageBlock'
 import Jumbotron from '../../components/Jumbotron/Jumbotron'
 import DevelopmentSkills from '../../components/Skills/DevelopmentSkills'
 import {homepageContent} from './HomePageContent'
+import Footer from '../../components/Footer/Footer'
 
 function HomePage() {
 
@@ -20,6 +21,7 @@ function HomePage() {
         p={homepageContent[3].aboutP}
       />
       <DevelopmentSkills />
+      <Footer />
 
       
     </>
