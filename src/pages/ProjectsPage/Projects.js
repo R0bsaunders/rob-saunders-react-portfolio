@@ -1,0 +1,81 @@
+export const projects = [
+    {
+        id: 1,
+        divId: "cleaner",
+        appLink: "https://www.allclear-windowcleaning.co.uk/",
+        appName: "All Clear Window Cleaning",
+        appDescription: "A single-page website was required for a client whose decade-old website only contained one image and was not ranking on Google at all. I used WIX to build a mobile-optimised webpage that now ranks on page one for window cleaners in Exeter",
+        icon1: "bi bi-gear-fill animate-icon",
+        tech1: "Wix",
+        icon2: "bi bi-envelope-check-fill",
+        tech2: "Lead Generating",
+        icon3: "bi bi-graph-up-arrow",
+        tech3: "SEO"
+    },
+    {
+        id: 2,
+        divId: "cleaner",
+        appLink: "https://www.allclear-windowcleaning.co.uk/",
+        appName: "All Clear Window Cleaning",
+        appDescription: "A single-page website was required for a client whose decade-old website only contained one image and was not ranking on Google at all. I used WIX to build a mobile-optimised webpage that now ranks on page one for window cleaners in Exeter",
+        icon1: "bi bi-gear-fill animate-icon",
+        tech1: "Wix",
+        icon2: "bi bi-envelope-check-fill",
+        tech2: "Lead Generating",
+        icon3: "bi bi-graph-up-arrow",
+        tech3: "SEO"
+    },
+    {
+        id: 3,
+        divId: "cleaner",
+        appLink: "https://www.allclear-windowcleaning.co.uk/",
+        appName: "All Clear Window Cleaning",
+        appDescription: "A single-page website was required for a client whose decade-old website only contained one image and was not ranking on Google at all. I used WIX to build a mobile-optimised webpage that now ranks on page one for window cleaners in Exeter",
+        icon1: "bi bi-gear-fill animate-icon",
+        tech1: "Wix",
+        icon2: "bi bi-envelope-check-fill",
+        tech2: "Lead Generating",
+        icon3: "bi bi-graph-up-arrow",
+        tech3: "SEO"
+    },
+    {
+        id: 4,
+        divId: "cleaner",
+        appLink: "https://www.allclear-windowcleaning.co.uk/",
+        appName: "All Clear Window Cleaning",
+        appDescription: "A single-page website was required for a client whose decade-old website only contained one image and was not ranking on Google at all. I used WIX to build a mobile-optimised webpage that now ranks on page one for window cleaners in Exeter",
+        icon1: "bi bi-gear-fill animate-icon",
+        tech1: "Wix",
+        icon2: "bi bi-envelope-check-fill",
+        tech2: "Lead Generating",
+        icon3: "bi bi-graph-up-arrow",
+        tech3: "SEO"
+    },
+    {
+        id: 5,
+        divId: "cleaner",
+        appLink: "https://www.allclear-windowcleaning.co.uk/",
+        appName: "All Clear Window Cleaning",
+        appDescription: "A single-page website was required for a client whose decade-old website only contained one image and was not ranking on Google at all. I used WIX to build a mobile-optimised webpage that now ranks on page one for window cleaners in Exeter",
+        icon1: "bi bi-gear-fill animate-icon",
+        tech1: "Wix",
+        icon2: "bi bi-envelope-check-fill",
+        tech2: "Lead Generating",
+        icon3: "bi bi-graph-up-arrow",
+        tech3: "SEO"
+    },
+    {
+        id: 6,
+        divId: "cleaner",
+        appLink: "https://www.allclear-windowcleaning.co.uk/",
+        appName: "All Clear Window Cleaning",
+        appDescription: "A single-page website was required for a client whose decade-old website only contained one image and was not ranking on Google at all. I used WIX to build a mobile-optimised webpage that now ranks on page one for window cleaners in Exeter",
+        icon1: "bi bi-gear-fill animate-icon",
+        tech1: "Wix",
+        icon2: "bi bi-envelope-check-fill",
+        tech2: "Lead Generating",
+        icon3: "bi bi-graph-up-arrow",
+        tech3: "SEO"
+    },
+
+]
