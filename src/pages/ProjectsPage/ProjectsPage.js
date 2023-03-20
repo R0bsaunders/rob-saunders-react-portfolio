@@ -31,7 +31,8 @@ function ProjectsPage() {
                   tech2={p.tech2}
                   icon3={p.icon3}
                   tech3={p.tech3}
-                  key={p.id} />)}
+                  key={p.id} />)
+                }
 
               </div>
               

@@ -1,0 +1,12 @@
+.contactWrapper {
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+

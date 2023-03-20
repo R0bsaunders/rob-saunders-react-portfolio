@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a href="#"><img alt="Rob Saunders Website Logo" src="./images/rob-saunders-logo.png" /></a>
+        <a href="/"><img alt="Rob Saunders Website Logo" src="./images/rob-saunders-logo.png" /></a>
         <p>2022 Copyright Rob Saunders</p>
       </div>
 
@@ -13,7 +13,7 @@ function Footer() {
 
         <ul className="nav flex-column">
           <li className="nav-item">
-            <a className="nav-link active footer-nav" href="#work">My Work</a>
+            <a className="nav-link active footer-nav" href="/projects">My Work</a>
           </li>
 
 
@@ -23,7 +23,7 @@ function Footer() {
 
 
           <li className="nav-item">
-            <a className="nav-link footer-nav" href="#contact">Contact</a>
+            <a className="nav-link footer-nav" href="/">Contact</a>
           </li>
         </ul>
       </div>
