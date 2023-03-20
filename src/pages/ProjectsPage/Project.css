@@ -4,3 +4,30 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#fuel-calculator {
+    background-image: url(../../../public/images/fuel-cost-calculator.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#weather {
+    background-image: url(../../../public/images/app-screenshot.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+small {
+    color: white;
+}
+
+.bi {
+    color: aliceblue;
+}
