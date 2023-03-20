@@ -1,19 +1,19 @@
 #cleaner {
-    background-image: url(../../../public/images/portfolio-allclear-window-cleaning.jpg);
+    background-image: url(../../../public/assets/images/portfolio-allclear-window-cleaning.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #fuel-calculator {
-    background-image: url(../../../public/images/fuel-cost-calculator.png);
+    background-image: url(../../../public//assets/images/fuel-cost-calculator.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #weather {
-    background-image: url(../../../public/images/app-screenshot.jpg);
+    background-image: url(../../../public/assets/images/app-screenshot.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

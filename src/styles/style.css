@@ -124,7 +124,7 @@ a:hover {
 
 .jumbotron {
     height: 50vh;
-    background-image: url(../../public/images/desktop-hero-rob-hiking-sunset.jpeg);
+    background-image: url(../../public/assets/images/desktop-hero-rob-hiking-sunset.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

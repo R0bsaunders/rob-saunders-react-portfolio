@@ -56,7 +56,7 @@ export const homepageContent = [
 
     {
         aboutH2: "About Me",
-        image: "../images/desktop-rob-saunders-profile-picture.jpg",
+        image: "../assets/images/desktop-rob-saunders-profile-picture.jpg",
         imageAlt: "A photograph of Rob Saunders",
         aboutP: "I am a driven, self-motivated people-person who enjoys setting personal goals and striving to achieve them. Whilst I have a competitive nature, I am also a team player and use my drive and determination to motivate and empower my team or fellow team members. I am able to apply myself fully to a new role and learn quickly. I am loyal, dedicated, honest, and have excellent customer service skills. I genuinely enjoy getting to know people and building up a rapport with them"
     },
