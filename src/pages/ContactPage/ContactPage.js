@@ -1,13 +1,28 @@
 import React from 'react'
+import { useState } from 'react';
 import Jumbotron from '../../components/Jumbotron/Jumbotron'
 import { contactJumbo } from './ContactJumbo';
 import './ContactPage.css'
 
 function ContactPage() {
-    const handleSubmit = e => {
-        e.preventDefault();
-        alert(`Form Submitted`);
-    }
+    const [userName, setUserName] = useState('');
+    const [userEmail, setUserEmail] = useState('');
+    const [userMessage, setUserMessage] = useState('');
+    const [submitting, setSubmitting] = useState(false);
+
+    const handleSubmit = event => {
+        event.preventDefault();
+        setSubmitting(true);
+    
+        // Simulating an API Call
+        setTimeout(() => {
+        setSubmitting(false);
+        // Alert stating successful form submit
+        alert(`Form submitted - speak soon!`)
+        }, 3000)
+
+    };
+
   return (
     <>
         <section id="hero">
@@ -18,23 +33,26 @@ function ContactPage() {
         </section>
 
         <div className="contactWrapper">
-            <h2>How About Them Apples</h2>
+            <h2>Leave me a message and I'll come back to you ASAP</h2>
+            {submitting && <div>Submitting Form...</div>}
+            
             <form onSubmit={handleSubmit}>
                 <fieldset>
                     <label>
-                        <p>Name</p>
-                        <input name="name" />
+                        <p>Your Name</p>
+                        <input name="name" onChange={setUserName}/>
                     </label>
                     <label>
-                        <p>Email</p>
-                        <input name="email" />
+                        <p>Your Email</p>
+                        <input name="email"  onChange={setUserEmail}/>
                     </label>
                     <label>
-                        <p>Message</p>
-                        <input name="message" />
+                        <p>What's your message</p>
+                        <textarea name="message"  onChange={setUserMessage}/>
                     </label>
                 </fieldset>
-                <button type="submit">Submit</button>
+                <button type="submit" className="btn btn-primary btn-lg navCTA">Submit</button>
+
             </form>
         </div>
   </>

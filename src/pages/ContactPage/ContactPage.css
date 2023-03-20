@@ -1,12 +1,27 @@
 .contactWrapper {
     padding: 5px 20px;
     display: flex;
+    text-align: center;
     flex-direction: column;
 }
 
 fieldset {
     margin: 20px 0;
     display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 25px;
     justify-content: center;
 }
 
+textarea {
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: scroll;
+    white-space: normal;
+    min-height: 25vh;
+    width: 50vh;
+
+}
