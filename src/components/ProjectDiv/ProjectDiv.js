@@ -1,12 +1,13 @@
 import React from 'react'
 import '../../styles/style.css'
+
 const liClass = "d-flex align-items-center me-3"
 
 function ProjectDiv(props) {
   return (
     <a href={props.appLink} target="_blank">
-        <div className="col-lg-12 portfolio-height p-2" id={props.divId}>
-            <div className="work-card card card-cover h-100 overflow-hidden text-bg-dark shadow-lg" >
+        <div className="col-lg-12 portfolio-height p-2">
+            <div className="work-card card card-cover h-100 overflow-hidden text-bg-dark shadow-lg" id={props.divId} >
 
                 <h3 className="mb-4 h3-portfolio">{props.appName}</h3>
 

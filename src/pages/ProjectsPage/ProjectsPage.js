@@ -1,6 +1,7 @@
 import React from 'react'
 import Jumbotron from '../../components/Jumbotron/Jumbotron';
 import ProjectDiv from '../../components/ProjectDiv/ProjectDiv'
+import './Project.css'
 import { projects } from '../../pages/ProjectsPage/Projects'
 import { ProjectJumbo } from './ProjectJumbo';
 
