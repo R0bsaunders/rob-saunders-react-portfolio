@@ -1,10 +1,11 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
 
 function Footer() {
   return (
     <footer>
       <div>
-        <a href="/"><img alt="Rob Saunders Website Logo" src="./images/rob-saunders-logo.png" /></a>
+        <Link to="/#"><img alt="Rob Saunders Website Logo" src="./images/rob-saunders-logo.png" /></Link>
         <p>2022 Copyright Rob Saunders</p>
       </div>
 
@@ -13,17 +14,17 @@ function Footer() {
 
         <ul className="nav flex-column">
           <li className="nav-item">
-            <a className="nav-link active footer-nav" href="/projects">My Work</a>
+          <Link to="/projects/#" className="nav-link footer-nav">Projects</Link>
           </li>
 
 
           <li className="nav-item">
-            <a className="nav-link footer-nav" href="#skills">My Skills</a>
+            <Link to="/#skills" className="nav-link footer-nav">My Skills</Link>
           </li>
 
 
           <li className="nav-item">
-            <a className="nav-link footer-nav" href="/">Contact</a>
+          <Link to="/contact/#" className="nav-link footer-nav">Contact</Link>
           </li>
         </ul>
       </div>

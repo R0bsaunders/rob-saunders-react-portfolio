@@ -10,8 +10,8 @@
     --transparentBackground: rgba(255, 255, 255, 0.429);
     --brandColor: rgba(69, 9, 116,1);
     --tabletSpaceBetweenElements: 25px;
-    --titleBackground: rgba(69, 9, 116,0.75);
-    --transparentWork: rgba(000, 000, 000, 0.729);
+    --titleBackground: rgba(69, 9, 116,0.8);
+    --transparentWork: rgba(000, 000, 000, 0.8);
 }
 
 /* Text Styles */
@@ -176,7 +176,7 @@ a:hover {
 }
 
 #card-description p {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0 auto;
     width: 75%;
 }
