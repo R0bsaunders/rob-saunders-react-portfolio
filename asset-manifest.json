@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rob-saunders-react-portfolio/static/css/main.158c88cf.css",
+    "main.js": "/rob-saunders-react-portfolio/static/js/main.1ddf09e5.js",
+    "static/media/fuel-cost-calculator.png": "/rob-saunders-react-portfolio/static/media/fuel-cost-calculator.0bf087319d339e38cdcf.png",
+    "static/media/portfolio-allclear-window-cleaning.jpg": "/rob-saunders-react-portfolio/static/media/portfolio-allclear-window-cleaning.a032abe61aca902a89c5.jpg",
+    "static/media/app-screenshot.jpg": "/rob-saunders-react-portfolio/static/media/app-screenshot.6635d7d59aa787e63d73.jpg",
+    "static/media/desktop-hero-rob-hiking-sunset.jpeg": "/rob-saunders-react-portfolio/static/media/desktop-hero-rob-hiking-sunset.9a6ea648045d659d640a.jpeg",
+    "index.html": "/rob-saunders-react-portfolio/index.html",
+    "main.158c88cf.css.map": "/rob-saunders-react-portfolio/static/css/main.158c88cf.css.map",
+    "main.1ddf09e5.js.map": "/rob-saunders-react-portfolio/static/js/main.1ddf09e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.158c88cf.css",
+    "static/js/main.1ddf09e5.js"
+  ]
+}
