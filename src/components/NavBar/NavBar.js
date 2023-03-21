@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <header>
     <nav className="navbar fixed-top navbar-expand-lg navbar-light customNav">
-      <Link to='/#' className="navbar-brand"><img id="logoImg" src="./assets/images/rob-saunders-logo2.png" alt="Purple and white logo for Rob Saunders" /></Link>
+      <Link to='/#' className="navbar-brand"><img id="logoImg" src="../assets/images/rob-saunders-logo2.png" alt="Purple and white logo for Rob Saunders" /></Link>
 
       <div>
         <button aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation" className="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span className="navbar-toggler-icon"></span></button>
@@ -20,10 +20,6 @@ function NavBar() {
 
             <li className="nav-item">
               <Link to='/contact/#' className="nav-link">Contact</Link>
-            </li>
-
-            <li className="nav-item">
-            < Link to='/About/#' className="nav-link">About</Link>
             </li>
 
             <li className="nav-item">

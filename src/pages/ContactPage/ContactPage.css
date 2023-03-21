@@ -25,3 +25,32 @@ textarea {
     width: 50vh;
 
 }
+
+
+
+/* Contact Section */
+
+
+#contactDetails {
+    grid-area: contactDetails;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-around;
+}
+
+.contactCards {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.contactCards p {
+    user-select: all;
+}
+
+.contactCards:hover {
+    transition: 0.3s;
+    transform: scale(1.15); 
+}
