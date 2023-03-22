@@ -11,9 +11,9 @@ function App() {
         <HashRouter>
           <NavBar />
           <Routes>
-            <Route path="/rob-saunders-react-portfolio/" element={<HomePage />} />
-            <Route path="/rob-saunders-react-portfolio/projects" element={<ProjectsPage />} />
-            <Route path="/rob-saunders-react-portfolio/contact" element={<ContactPage />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
           <Footer />
         </HashRouter>
