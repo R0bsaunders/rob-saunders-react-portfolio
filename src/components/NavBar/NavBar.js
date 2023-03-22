@@ -23,7 +23,7 @@ function NavBar() {
             </li>
 
             <li className="nav-item">
-              <a className="btn btn-primary btn-lg navCTA" href="../rob-saunders-react-portfolio/assets/files/Robert-Saunders-CV.pdf" target="_blank" role="button">My CV</a>
+              <a className="btn btn-primary btn-lg navCTA" href="./assets/files/Robert-Saunders-CV.pdf" target="_blank" role="button">My CV</a>
             </li>
 
           </ul>
