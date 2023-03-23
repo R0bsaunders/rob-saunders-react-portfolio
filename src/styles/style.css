@@ -12,6 +12,7 @@
     --tabletSpaceBetweenElements: 25px;
     --titleBackground: rgba(69, 9, 116,0.8);
     --transparentWork: rgba(000, 000, 000, 0.8);
+    --linkShadow: 2px 2px rgba(000,000,000, .55);
 }
 
 /* Text Styles */
@@ -43,7 +44,7 @@ h1 {
     transition: 0.5s;
     background-color: var(--brandColor);
     color: white !important;
-    box-shadow: 2px 2px rgba(000,000,000, .55);
+    box-shadow: var(--linkShadow);
 }
 
 /* Project Button Style */
@@ -59,7 +60,7 @@ h1 {
     border-color: black;
     transition: 0.5s;
     color: green !important;
-    box-shadow: 2px 2px rgba(000,000,000, .55);
+    box-shadow: var(--linkShadow);
 }
 
 /* Nav Bar */
@@ -130,7 +131,7 @@ a:hover {
     transition: 0.5s;
     background-color: var(--brandColor);
     color: white !important;
-    box-shadow: 2px 2px rgba(000,000,000, .55);
+    box-shadow: var(--linkShadow);
 }
 
 .navbar-expand-lg {
@@ -153,6 +154,7 @@ a:hover {
     align-items: flex-end;
     justify-content: center;
     margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.4) !important;
 }
 
 .jumboCopy {
