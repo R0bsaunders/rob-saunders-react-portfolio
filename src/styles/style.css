@@ -45,6 +45,23 @@ h1 {
     color: white !important;
     box-shadow: 2px 2px rgba(000,000,000, .55);
 }
+
+/* Project Button Style */
+
+.btn-project {
+    border-color: var(--brandColor);
+    margin: 10px 0 10px 0;
+    background-color: lightblue;
+    color: var(--brandColor);
+}
+
+.btn-project:hover {
+    border-color: black;
+    transition: 0.5s;
+    color: green !important;
+    box-shadow: 2px 2px rgba(000,000,000, .55);
+}
+
 /* Nav Bar */
 
 #logoImg {

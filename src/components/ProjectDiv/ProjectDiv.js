@@ -17,14 +17,14 @@ function ProjectDiv(props) {
         <div className="p-2">
             <div className="work-card card card-cover h-100 overflow-hidden text-bg-dark shadow-lg" id={props.divId} >
 
-              <a href={props.appLink} target="_blank">
-                <h3 className="mb-4 h3-portfolio">{props.appName}</h3>
+                              <h3 className="mb-4 h3-portfolio">{props.appName}</h3>
 
                 <div id="card-description">
 
                     <p>{props.appDescription}</p>
+                 <a href={props.appLink} target="_blank"><button className="btn btn-project">View App</button></a>
                 </div>
-                </a>
+
                 <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
                     <ul className="work-ul d-flex list-unstyled mt-auto">
