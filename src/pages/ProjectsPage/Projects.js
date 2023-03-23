@@ -23,7 +23,8 @@ export const projects = [
         icon2: "bi bi-check-circle-fill",
         tech2: "Practical",
         icon3: "bi bi-github animate-icon",
-        tech3: "GitHub"
+        tech3: "GitHub",
+        github:"https://github.com/R0bsaunders/fuel-cost-and-sell-price-calculator-application"
     },
     {
         id: 3,

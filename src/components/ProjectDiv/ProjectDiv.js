@@ -4,6 +4,13 @@ import '../../styles/style.css'
 const liClass = "d-flex align-items-center me-3"
 
 function ProjectDiv(props) {
+    function checkGitHub(data) {
+        if(data ==="GitHub") {
+            console.log("TRUE");
+            return <a href={props.github} className="gitLink" target="_blank">{props.tech3} <i className="bi bi-box-arrow-up-right"></i></a>
+        }
+        return data
+    }
   return (
 
         <div className="portfolio-height p-2">
@@ -33,7 +40,7 @@ function ProjectDiv(props) {
 
                         <li className={liClass}>
                             <i className={props.icon3}></i>
-                            <small>{props.tech3}</small>
+                            {checkGitHub(props.tech3)}
                         </li>
 
                     </ul>

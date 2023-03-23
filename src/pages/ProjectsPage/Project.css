@@ -24,6 +24,11 @@ a {
     text-decoration: none;
 }
 
+.gitLink {
+    color: white !important;
+    text-decoration: underline;
+}
+
 small {
     color: white;
 }

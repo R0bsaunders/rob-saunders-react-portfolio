@@ -32,6 +32,7 @@ function ProjectsPage() {
                   tech2={p.tech2}
                   icon3={p.icon3}
                   tech3={p.tech3}
+                  github={p.github}
                   key={p.id} />)
                 }
 
