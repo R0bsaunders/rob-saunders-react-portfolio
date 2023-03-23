@@ -16,7 +16,7 @@ function ProjectsPage() {
       <section id="work">
           <div className="container px-4 py-5" id="custom-cards">
               <h2 className="pb-2 border-bottom">My Portfolio</h2>
-              <p>Here are a few examples of websites I have built to date:</p>
+              <p>As a website developer and SEO, I have worked on many projects. The below projects are a selection that I am most proud of:</p>
               
               <div className="row row-cols-md-2 row-cols-lg-2 row-cols-xl-3 align-items-stretch g-4 py-5">
               
