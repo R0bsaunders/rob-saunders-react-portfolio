@@ -14,36 +14,36 @@ export const homepageContent = [
         {
             id: 1,
             icon: "bi bi-filetype-html",
-            h3: "HTML",
+            h3: "HTML5",
             p: "I am proficient in HTML coding in line with industry standards and build websites to comply with current accessibility standards"
         },
 
         {
             id: 2,
             icon: "bi bi-filetype-css",
-            h3: "CSS",
+            h3: "CSS4",
             p: "I build website stylesheets using CSS in the most efficient ways minimising the amount of code required"
         },
 
         {
             id: 3,
             icon: "bi bi-bootstrap-fill",
-            h3: "Bootstrap",
-            p: "Using the most up to date library, I can use Bootstrap to quickly build simple yet personalised websites to keep costs low"
+            h3: "Bootstrap5",
+            p: "Using the most up to date library, I can use Bootstrap to quickly build simple, responsive and personalised websites to keep costs low while being accessible on any screen size"
         },
 
         {
             id: 4,
             icon: "bi bi-cash-coin",
             h3: "ROI",
-            p: "I've worked with large businesses and build websites with the end-goal in mind; whether it's a purchase, phone call or appointment."
+            p: "I've worked with large businesses and my focus is always on the value I can bring your business. I build websites with the user end-goal in mind; whether it's a purchase, phone call or appointment."
         },
 
         {
             id: 5,
             icon: "bi bi-filetype-jsx",
             h3: "REACT",
-            p: "I can build single-page application using REACT"
+            p: "I can build single-page applications using REACT"
         },
         
         {
