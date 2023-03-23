@@ -68,6 +68,10 @@ h1 {
     height: 75px;
 }
 
+#mobile {
+    text-align: end;
+}
+
 li {
     padding: 10px;
     font-weight: 600;

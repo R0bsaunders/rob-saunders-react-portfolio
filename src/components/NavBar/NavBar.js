@@ -9,7 +9,7 @@ function NavBar() {
       <nav className="navbar fixed-top navbar-expand-lg navbar-light customNav">
         <Link to='/#' className="navbar-brand"><img id="logoImg" src="../rob-saunders-react-portfolio/assets/images/rob-saunders-logo2.png" alt="Purple and white logo for Rob Saunders" /></Link>
 
-        <div>
+        <div id="mobile">
           <button aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation" className="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span className="navbar-toggler-icon"></span></button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
