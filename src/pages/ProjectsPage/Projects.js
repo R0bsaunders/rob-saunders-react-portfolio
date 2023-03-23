@@ -1,4 +1,5 @@
 export const projects = [
+    // Each object contains the content for the projects pageXOffset. 
     {
         id: 1,
         divId: "cleaner",
@@ -80,5 +81,4 @@ export const projects = [
         icon3: "bi bi-filetype-css",
         tech3: "CSS"
     },
-
-]
+];

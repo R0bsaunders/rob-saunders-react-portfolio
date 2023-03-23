@@ -1,3 +1,5 @@
+/* Background images for each project (recognised by the project ID) */
+
 #cleaner {
     background-image: url(../../../public/assets/images/portfolio-allclear-window-cleaning.jpg);
 
@@ -24,6 +26,8 @@
 #saleyha {
     background-image: url(../../../public/assets/images/saleyha-ahsan.jpg);
 }
+
+/* Additional text stylings on page */
 
 a {
     text-decoration: none;
