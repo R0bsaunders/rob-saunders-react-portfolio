@@ -8,17 +8,16 @@ import ContactPage from './pages/ContactPage/ContactPage';
 
 function App() {
   return (
-        <HashRouter>
-          <NavBar />
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/projects" element={<ProjectsPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-          </Routes>
-          <Footer />
-        </HashRouter>
-
+    <HashRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+      <Footer />
+    </HashRouter>
   );
-}
+};
 
 export default App;
