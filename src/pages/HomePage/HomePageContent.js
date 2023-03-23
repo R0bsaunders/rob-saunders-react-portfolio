@@ -54,6 +54,7 @@ export const homepageContent = [
         }
     ],
 
+    // Content for the about me section
     {
         aboutH2: "About Me",
         image: "./assets/images/desktop-rob-saunders-profile-picture.jpg",
