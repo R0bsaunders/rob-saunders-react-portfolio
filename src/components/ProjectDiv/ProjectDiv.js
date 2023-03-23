@@ -14,7 +14,7 @@ function ProjectDiv(props) {
     
   return (
 
-        <div className="portfolio-height p-2">
+        <div className="p-2">
             <div className="work-card card card-cover h-100 overflow-hidden text-bg-dark shadow-lg" id={props.divId} >
 
               <a href={props.appLink} target="_blank">
