@@ -11,6 +11,7 @@ function ProjectDiv(props) {
         }
         return data
     }
+    
   return (
 
         <div className="portfolio-height p-2">

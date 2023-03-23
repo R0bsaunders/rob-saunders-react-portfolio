@@ -151,6 +151,7 @@ a:hover {
     background-size: cover;
     background-position: center;
     min-height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.4) !important;
 }
 
 .work-ul {
@@ -178,7 +179,7 @@ a:hover {
 #card-description p {
     font-size: 14px;
     margin: 0 auto;
-    width: 75%;
+    width: 90%;
 }
 
 .mb-4 {
