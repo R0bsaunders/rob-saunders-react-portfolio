@@ -7,7 +7,7 @@ function Footer() {
 
       <div>
         <Link to="/#"><img alt="Rob Saunders Website Logo" src="./assets/images/rob-saunders-logo.png" /></Link>
-        <p>2022 Copyright Rob Saunders</p>
+        <p>2023 Copyright Rob Saunders</p>
       </div>
 
       <div>
