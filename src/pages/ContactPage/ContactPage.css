@@ -22,14 +22,11 @@ textarea {
     overflow: scroll;
     white-space: normal;
     min-height: 25vh;
-    width: 50vh;
+    width: 30vh;
 
 }
 
-
-
 /* Contact Section */
-
 
 #contactDetails {
     grid-area: contactDetails;
